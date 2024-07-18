@@ -1,30 +1,59 @@
-# React + TypeScript + Vite
+# GitHub Finder
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+GitHub Finder é uma aplicação web desenvolvida em TypeScript e React que permite buscar usuários no GitHub e visualizar seus melhores repositórios.
 
-Currently, two official plugins are available:
+## Funcionalidades
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Buscar usuários por nome de usuário no GitHub
+- Exibir informações detalhadas sobre o usuário encontrado
+- Listar os repositórios mais populares do usuário
+- Interface amigável e responsiva
 
-## Expanding the ESLint configuration
+## Tecnologias Utilizadas
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- [React](https://reactjs.org/) - Biblioteca para construção da interface do usuário
+- [TypeScript](https://www.typescriptlang.org/) - Superset do JavaScript que adiciona tipos estáticos
+- [GitHub API](https://api.github.com/users) - API RESTful do GitHub para obtenção de dados dos usuários e repositórios
 
-- Configure the top-level `parserOptions` property like this:
+## Pré-requisitos
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+- [Node.js](https://nodejs.org/en/)
+- [npm](https://docs.npmjs.com/cli/v10/commands/npm-install)
+
+## Como Executar o Projeto
+
+### 1. Clone o repositório
+
+`git clone https://github.com/seu-usuario/github-finder.git `
+
+### 2. Acesse o diretório do projeto
+
+`cd git_finder`
+
+### 3. Instale as dependências
+
+`npm i react-router-dom react-icons`
+
+### 4. Execute a aplicação
+
+`npm run dev`
+
+## Contribuindo
+
+Contribuições são sempre bem-vindas! Sinta-se à vontade para abrir issues e pull requests.
+
+1. Faça um fork do projeto
+
+2. Crie uma nova branch: git checkout -b feature/nome-da-sua-feature 
+
+3. Faça suas alterações e commit: git commit -m 'Adiciona nova feature'
+
+4. Envie para a sua branch: git push origin feature/nome-da-sua-feature
+
+5. Abra um pull request
+
+## Desenvolvedor
+
+Feito por [KELVIN GUIMARÃES MELO](https://github.com/KelvinGuimaraes)
